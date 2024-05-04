@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.card{
+    background-image: url("https://razorpay.com/build/browser/static/wave-blue.3362585e.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 90;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.back{
+    background-image: url('https://razorpay.com/build/browser/static/x-dark-bg.0bc3bc00.svg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -400px;
+    background-position-y: 0px;
+    padding-bottom: 550px;
+    padding-top: 10rem;
+}
+.back2{
+    background-image: url('https://razorpay.com/build/browser/static/features-bg.61935438.svg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.feature3Back {
+    background-image: url('https://razorpay.com/build/browser/static/instant-settlements-bg.b4569475.svg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back3{
+    background-color: hsla(220, 81.8%, 97.8%, 1);
+}
+.ani{
+    animation: move 10s linear infinite;
+    -webkit-animation: move 10s linear infinite;
+}
+@keyframes move {
+    from {bottom: 0;}
+    to {bottom: 100%;}
+  }
